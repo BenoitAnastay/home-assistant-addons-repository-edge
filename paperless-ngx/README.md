@@ -53,9 +53,9 @@ paperless_auth_header: Token <django-token>
 
 You can generate a token by clicking on `Settings -> Django Adminpanel -> Token` in your paperless instance.
 
-## WARNING! THIS IS A BETA VERSION!
+## WARNING! THIS IS A EDGE VERSION!
 
-This Home Assistant Add-ons repository contains beta releases of add-ons.
+This Home Assistant Add-ons repository contains edge releases of add-ons.
 
 - They might stop working at any time.
 - They could have a negative impact on your system.

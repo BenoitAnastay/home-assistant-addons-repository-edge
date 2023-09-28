@@ -1,4 +1,4 @@
-# Home Assistant Custom Add-ons
+# Home Assistant Custom Add-ons EDGE
 
 ## About
 
