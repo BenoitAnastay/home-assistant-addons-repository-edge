@@ -73,5 +73,5 @@ If you are more interested in stable releases of our add-ons:
 <https://github.com/BenoitAnastay/home-assistant-addons-repository>
 
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-a324abc-blue.svg
-[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/a324abc
+[release-shield]: https://img.shields.io/badge/version-55d14b1-blue.svg
+[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/55d14b1

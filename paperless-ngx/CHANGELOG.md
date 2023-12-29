@@ -1,4 +1,11 @@
 # Changelog since v0.1.5
+- fix 35 enable configuration of barcode asn parsing (#39)
+
+* update run.sh
+
+* Update config
+
+* Fix config schema 
 - 🚀 Enable configuration of barcode asn parsing (#38)
 
 * update run.sh
