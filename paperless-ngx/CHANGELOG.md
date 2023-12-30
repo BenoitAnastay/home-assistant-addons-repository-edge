@@ -1,4 +1,5 @@
 # Changelog since v0.1.5
+- git update-index (#46) 
 - ✨ Add recursive consuming and subdirectory as tag options (#44) 
 - 🛠️ Use S6 overlay initalisation (#42)
 
