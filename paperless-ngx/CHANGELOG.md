@@ -1,4 +1,16 @@
 # Changelog since v0.1.5
+- ✨ Add recursive consuming and subdirectory as tag options (#44) 
+- 🛠️ Use S6 overlay initalisation (#42)
+
+* 🔨Init paperless with s6-overlay
+
+* delete original run.sh
+
+* Disable init
+
+* Fix paperless call
+
+* Move exports to paperless run script 
 - fix 35 enable configuration of barcode asn parsing (#39)
 
 * update run.sh
