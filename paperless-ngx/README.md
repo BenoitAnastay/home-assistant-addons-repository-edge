@@ -1,6 +1,6 @@
 # Paperless-ngx Home Assistant Addon
 Paperless is an application that manages your personal documents. With the help of a document scanner, paperless transforms your wieldy physical document binders into a searchable archive and provides many utilities for finding and managing your documents.
-### Paperless Version 2.1.3
+### Paperless Version 2.2.1
 
 ## About
 
@@ -73,5 +73,5 @@ If you are more interested in stable releases of our add-ons:
 <https://github.com/BenoitAnastay/home-assistant-addons-repository>
 
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-b753b1f-blue.svg
-[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/b753b1f
+[release-shield]: https://img.shields.io/badge/version-v1.0.0-blue.svg
+[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/v1.0.0
