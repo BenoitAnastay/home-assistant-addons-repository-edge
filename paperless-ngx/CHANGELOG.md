@@ -1,4 +1,5 @@
 # Changelog since v1.0.0
+- ⚡ Improve barcodes recognition with ZXING library (#52) 
 - 🔨 Move data to addon_config folder and add paperless.conf file (#51)
 
 * move data to config foder
