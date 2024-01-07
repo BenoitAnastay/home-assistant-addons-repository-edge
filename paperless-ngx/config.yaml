@@ -1,5 +1,5 @@
 name: Paperless-ngx
-version: 106fd17
+version: 741c00e
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 init: false
@@ -17,6 +17,7 @@ ports:
 ports_description:
   8000/tcp: Web interface
 map:
+- addon_config:rw
 - share:rw
 options:
   filename: '{created_year}/{correspondent}/{title}'
