@@ -1,4 +1,6 @@
 # Changelog since v1.0.0
+- git update-index init-nginx 
+- Update version number 
 - 📚 Update documentation (#49)
 
 * Update README.md
