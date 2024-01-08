@@ -1,12 +1,6 @@
-# Changelog since v1.1.0
-- Update renovate.json (#57) 
-- Update renovate.json 
-- 🔨 Renovate update (#54)
+## What’s changed
 
-* 🔨 Update renovate
+## ⬆️ Dependency updates
 
-* Prettified Code!
-
----------
-
-Co-authored-by: BenoitAnastay <BenoitAnastay@users.noreply.github.com> 
+- 🔨 Renovate update @BenoitAnastay ([#54](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/54))
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.3.2 @renovate ([#56](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/56))
