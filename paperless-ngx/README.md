@@ -9,7 +9,7 @@ Paperless is an application that manages your personal documents. With the help 
 
 _Paperless is an application that manages your personal documents. With the help of a document scanner (see [Scanner recommendations](https://paperless-ngx.readthedocs.io/en/latest/scanners.html)), paperless transforms your wieldy physical document binders into a searchable archive and provides many utilities for finding and managing your documents._
 
-![Dashboard screenshot](https://github.com/paperless-ngx/paperless-ngx/blob/b961df90a72f506f4a58c236fd3712cebb1523ff/docs/assets/screenshots/dashboard.png)
+![Dashboard screenshot](https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/dev/docs/assets/screenshots/dashboard.png)
 
 Read more in the project's [Readme](https://github.com/paperless-ngx/paperless-ngx)
 
@@ -38,7 +38,7 @@ In Home Assistant Information from paperless can be accessed trought a REST-Sens
 ```
 - platform: rest
   unique_id: 5dade7bc-ddb7-442e-bb17-0d379dbf01fb
-  resource: paperless.server:port/api/documents/
+  resource: ca5234a0_paperless-ngx/api/documents/
   headers:
     Authorization: !secret paperless_auth_header
   params:
@@ -77,7 +77,7 @@ If you are more interested in stable releases of our add-ons:
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-0d830ba-blue.svg
-[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/0d830ba
+[release-shield]: https://img.shields.io/badge/version-6abd9e3-blue.svg
+[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/6abd9e3
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=ca5234a0_paperless-ngx&repository_url=https%3A%2F%2Fgithub.com%2FBenoitAnastay%2Fhome-assistant-addons-repository
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
