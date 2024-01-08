@@ -1,6 +1,11 @@
-## What’s changed
+# Changelog since v1.1.1
+- 🔨 Update renovate (#58)
 
-## ⬆️ Dependency updates
+* LF return
 
-- 🔨 Renovate update @BenoitAnastay ([#54](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/54))
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.3.2 @renovate ([#56](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/56))
+* Prettified Code!
+
+---------
+
+Co-authored-by: BenoitAnastay <BenoitAnastay@users.noreply.github.com> 
+- add package name remplacement 
