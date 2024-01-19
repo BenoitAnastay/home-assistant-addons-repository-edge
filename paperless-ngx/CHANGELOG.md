@@ -1,4 +1,7 @@
 # Changelog since v1.1.2
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.4.0 (#68)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - 🔨 Enable both ingress and direct access (#67)
 
 * Enable both ingress and direct access
