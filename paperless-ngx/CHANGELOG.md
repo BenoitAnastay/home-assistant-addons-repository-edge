@@ -1,4 +1,5 @@
 # Changelog since v1.1.3
+- ✨Add option to set client_max_body_size (#78) 
 - ⚙️ Add option to customize trusted domains (#77)
 
 * Add option to set trusted domains manually
