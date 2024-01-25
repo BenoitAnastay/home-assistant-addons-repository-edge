@@ -1,4 +1,5 @@
 # Changelog since v1.1.3
+- ⏲️ Raise maximum file upload size to 30M (#75) 
 - append .local to hostname (#72) 
 - 📘 Update documentation about direct access and CSRF error (#74)
 
