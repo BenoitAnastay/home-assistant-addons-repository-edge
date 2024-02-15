@@ -1,4 +1,7 @@
 # Changelog since v1.2.2
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.5.2 (#92)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update paperless-ngx/paperless-ngx to v2.5.1 (#89)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
