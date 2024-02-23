@@ -1,4 +1,6 @@
 # Changelog since v1.2.3
+- 🦺 Add input validation for admin password (#102) 
+- 🔧 Allow users to display Paperless tab (#101) 
 - 🐛 Change share directory owner (#97)
 
 Attenpt to fix #96 
