@@ -1,1 +1,1 @@
-- 🚀 Working scaffolding
+- 📝 Create base documentation (#1)
