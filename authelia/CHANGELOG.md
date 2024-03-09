@@ -1,1 +1,1 @@
-- 📝 Create base documentation (#1)
+- 🍱 Add logo and icon (#2)
