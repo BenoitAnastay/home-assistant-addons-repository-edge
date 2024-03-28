@@ -1,6 +1,6 @@
 name: Paperless-ngx
-version: e37af23
-slug: paperless-ngx
+version: 69ae412
+slug: paperless_ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 init: false
 ingress: true
