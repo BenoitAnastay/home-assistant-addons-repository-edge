@@ -3,7 +3,7 @@ channel: edge
 addons:
   paperless-ngx:
     repository: BenoitAnastay/paperless-home-assistant-addon
-    target: paperless-ngx
+    target: paperless_ngx
     image: ghcr.io/benoitanastay/paperless-ngx/{arch}
   dashy:
     repository: BenoitAnastay/dashy-home-assistant-addon
