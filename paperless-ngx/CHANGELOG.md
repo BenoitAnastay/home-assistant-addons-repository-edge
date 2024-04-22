@@ -1,4 +1,7 @@
 # Changelog since v1.2.10
+- 🔧 Load `paperless.conf` with `python_dotenv` before run (#136)
+
+This allow manual edition of all parameters 
 - 👷Use `Uv` instead of `pip` (#135)
 
 * 👷 replace pip by uv
