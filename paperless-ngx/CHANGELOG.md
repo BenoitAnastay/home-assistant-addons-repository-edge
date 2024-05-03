@@ -1,16 +1,2 @@
-# Changelog since v1.2.10
-- 🔧 Load `paperless.conf` with `python_dotenv` before run (#136)
-
-This allow manual edition of all parameters 
-- 👷Use `Uv` instead of `pip` (#135)
-
-* 👷 replace pip by uv
-
-* 🚨 Hadolint 
-- Revert "Update slug to avoid hyphen (#129)" (#133)
-
-This reverts commit 69ae41287249694bbf6af87358a71dca71899f41. 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.7.2 (#132)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- Update slug to avoid hyphen (#129) 
+# Changelog since v2.0.0
+- 🐛 Set dummy Origin for ingress (#138) 
