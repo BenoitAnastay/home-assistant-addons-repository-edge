@@ -1,5 +1,5 @@
 name: Authelia
-version: a6e8f4a
+version: 5a7c5ff
 slug: authelia
 url: https://www.authelia.com/
 init: false
