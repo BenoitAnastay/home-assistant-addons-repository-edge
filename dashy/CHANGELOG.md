@@ -1,4 +1,5 @@
 # Changelog since v0.1.0
+- chmod +x 
 - dependencies 
 - bashio block update 
 - 🚨 lint 
