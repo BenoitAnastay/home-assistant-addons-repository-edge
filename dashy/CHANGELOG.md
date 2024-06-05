@@ -1,4 +1,13 @@
 # Changelog since v0.1.0
+- original docker file compliancy 
+- drops armv7 
+- random fixs 
+- fix yarn cmd 
+- lint 
+- add --ignore-engines yarn flag 
+- Use git instead of curl 
+- Update tar cmd 
+- build from base image 
 - chmod +x 
 - dependencies 
 - bashio block update 
