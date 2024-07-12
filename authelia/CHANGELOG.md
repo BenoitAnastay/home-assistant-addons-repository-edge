@@ -1,4 +1,7 @@
 # Changelog since v0.1.1
+- 🐛 add condition to apply filters (#13)
+
+fix authelia not running because of "null" filter (introduced by #6 ) 
 - ⬆️ Update Authelia to v4.38.9 (#12)
 
 Close #7 
