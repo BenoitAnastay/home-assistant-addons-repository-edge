@@ -1,4 +1,7 @@
 # Changelog since v2.0.5
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.11.0 (#160)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update dependencies (#161) 
 - ⬆️ Update debian_12/curl to v7.88.1-10+deb12u6 (#158)
 
