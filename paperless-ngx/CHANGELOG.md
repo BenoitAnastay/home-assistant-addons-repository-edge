@@ -1,11 +1,4 @@
-# Changelog since v2.0.5
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.11.0 (#160)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update dependencies (#161) 
-- ⬆️ Update debian_12/curl to v7.88.1-10+deb12u6 (#158)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.4.0 (#159)
+# Changelog since v2.0.6
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.11.2 (#163)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
