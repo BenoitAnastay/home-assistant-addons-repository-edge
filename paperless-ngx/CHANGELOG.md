@@ -1,4 +1,17 @@
 # Changelog since v2.0.6
+- 🐛 fix #167 not booting and avoid authentication bybass (#168)
+
+* ✨ Allow ingress authentication
+
+* 🐛 fix #167 not booting
+
+* Update readme
+
+* 🐛 add API auth
+
+* 🔒️ add a security layer
+
+* 🔒️ Enable header auth only on ingress worker 
 - ✨ Allow ingress authentication (#167) 
 - 🐛fix nltk tokenizer breaking change paperless-ngx/paperless-ngx#7522 (#166) 
 - ⬆️ Update paperless-ngx/paperless-ngx to v2.11.6 (#165)
