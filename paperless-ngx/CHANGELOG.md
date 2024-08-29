@@ -1,5 +1,4 @@
-## What’s changed
+# Changelog since v2.1.1
+- ⬆️ Update debian_12/ghostscript to v10.0.0~dfsg-11+deb12u5 (#172)
 
-## 🐛 Bug fixes
-
-- 🐛 fix: HTTP Headers removed, causing CSRF faillure #169 @BenoitAnastay ([#171](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/171))
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
