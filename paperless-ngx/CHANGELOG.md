@@ -1,7 +1,9 @@
-# Changelog since v2.1.3
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.13.0 (#181)
+# Changelog since v2.1.4
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.13.1 (#184)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.5.1 (#180)
+- 🐛 Update Dockerfile to align with paperless project (#183)
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+* Update Dockerfile to align with paperless project
+
+* Update Dockerfile 
