@@ -34,19 +34,16 @@ The documentation for this addon can be found [here](DOCS.md)
 ## Integrate into Home Assistant
 
 In Home Assistant Information from paperless can be accessed trought a REST-Sensor:
-
-```
+``` yaml
 - platform: rest
   unique_id: 5dade7bc-ddb7-442e-bb17-0d379dbf01fb
-  resource: ca5234a0_paperless-ngx/api/documents/
+  resource: http://44849f5f-paperless-ngx/api/documents/?tags__name__iexact=inbox
   headers:
     Authorization: !secret paperless_auth_header
-  params:
-    query: "tag:inbox"
   value_template: "{{ value_json.count | int }}"
   name: "Paperless Inbox"
   icon: mdi:inbox
-```
+``` 
 
 In your secrets file you'll have to specify:
 
@@ -77,7 +74,7 @@ If you are more interested in stable releases of our add-ons:
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-c4dcc16-blue.svg
-[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/c4dcc16
+[release-shield]: https://img.shields.io/badge/version-814b41a-blue.svg
+[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/814b41a
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=ca5234a0_paperless-ngx&repository_url=https%3A%2F%2Fgithub.com%2FBenoitAnastay%2Fhome-assistant-addons-repository
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
