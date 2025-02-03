@@ -1,4 +1,5 @@
 # Changelog since v2.2.0
+- ⬆️ Use zxing from upstream (#229) 
 - ⬆️ Update paperless-ngx/paperless-ngx to v2.14.6 (#224)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
