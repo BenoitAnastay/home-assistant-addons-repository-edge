@@ -1,5 +1,5 @@
 name: Paperless-ngx
-version: 0ddd995
+version: 5fad9e9
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 init: false
@@ -26,7 +26,7 @@ map:
 - share:rw
 - ssl
 options:
-  filename: '{created_year}/{correspondent}/{title}'
+  filename: '{{ created_year }}/{{ correspondent }}/{{ title }}'
   language: eng
   language_packages: eng deu fra ita spa
   default_superuser:
