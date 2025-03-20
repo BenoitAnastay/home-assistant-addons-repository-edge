@@ -1,5 +1,5 @@
 name: Paperless-ngx
-version: 8cc3886
+version: 7db86bd
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 init: false
@@ -38,6 +38,7 @@ options:
   certfile: fullchain.pem
   keyfile: privkey.pem
   ingress_auth: false
+  tika_gotenberg: false
 schema:
   url: str?
   csrf_allowed:
@@ -62,4 +63,5 @@ schema:
   usermap_uid: int?
   usermap_gid: int?
   ingress_auth: bool
+  tika_gotenberg: bool
 image: ghcr.io/benoitanastay/paperless-ngx/{arch}

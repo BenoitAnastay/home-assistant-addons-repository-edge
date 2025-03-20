@@ -1,4 +1,5 @@
 # Changelog since v2.2.2
+- 🎉 Add Tika and Gotenberg (#254) 
 - ⬆️ Dependencies update  (#250)
 
 * Update Redis
