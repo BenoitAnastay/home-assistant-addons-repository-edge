@@ -21,3 +21,7 @@ addons:
     repository: BenoitAnastay/heimdall-home-assistant-addon
     target: heimdall
     image: ghcr.io/benoitanastay/heimdall/{arch}
+  tika-gotenberg:
+    repository: BenoitAnastay/tika-gotenberg-home-assistant-addon
+    target: tika-gotenberg
+    image: ghcr.io/benoitanastay/tika-gotenberg/{arch}
