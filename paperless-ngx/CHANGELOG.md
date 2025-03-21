@@ -1,31 +1,22 @@
-# Changelog since v2.2.2
-- 🎉 Add Tika and Gotenberg (#254) 
-- ⬆️ Dependencies update  (#250)
+## What’s changed
 
-* Update Redis
+## ✨ New features
 
-* fix nginx version 
-- ⬆️ Update debian_12/tzdata to v2025 (#249)
+- 🎉 Add Tika and Gotenberg @BenoitAnastay ([#254](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/254))
+- ✨ Add locales adjustement for folder names @BenoitAnastay ([#256](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/256))
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update debian_12/curl to v7.88.1-10+deb12u12 (#246)
+## 🚀 Enhancements
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update debian_12/mariadb-client to v1:10.11.11-0+deb12u1 (#247)
+- 🔧 Update default filename format @paull27 ([#239](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/239))
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- 💚 Ingore FUNDING from yamllint (#244)
+## 🧰 Maintenance
 
-* 💚 Ingore FUNDING from yamllint
+- 💚 Ingore FUNDING from yamllint @BenoitAnastay ([#244](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/244))
 
-* Indent 
-- Create FUNDING.yml (#243) 
-- 🔧 Update default filename format (#239) 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.7.1 (#235)
+## ⬆️ Dependency updates
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- update badges (#233)
-
-* 2025 badge
-
-* 2025 badge 
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.7.1 @[renovate[bot]](https://github.com/apps/renovate) ([#235](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/235))
+- ⬆️ Update debian_12/mariadb-client to v1:10.11.11-0+deb12u1 @[renovate[bot]](https://github.com/apps/renovate) ([#247](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/247))
+- ⬆️ Update debian_12/curl to v7.88.1-10+deb12u12 @[renovate[bot]](https://github.com/apps/renovate) ([#246](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/246))
+- ⬆️ Update debian_12/tzdata to v2025 @[renovate[bot]](https://github.com/apps/renovate) ([#249](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/249))
+- ⬆️ Dependencies update  @BenoitAnastay ([#250](https://github.com/BenoitAnastay/paperless-home-assistant-addon/pull/250))
