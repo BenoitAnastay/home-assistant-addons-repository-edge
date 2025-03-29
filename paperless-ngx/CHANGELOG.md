@@ -1,4 +1,7 @@
 # Changelog since v2.3.0
+- ⬆️ Update debian_12/tzdata to v2025b-0+deb12u1 (#265)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update debian_12/ghostscript to v10.0.0~dfsg-11+deb12u7 (#264)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
