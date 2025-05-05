@@ -1,4 +1,30 @@
 # Changelog since v2.3.0
+- ✨Update Paperless to v2.15.3 (#275)
+
+* ⬆️ Update paperless-ngx/paperless-ngx to v2.15.0 (#268)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+* ♻️ Copy rootfs
+
+* 🚧 Buildable
+
+* 🚧 Admin will be set from GUI
+
+* 🚧 Starting script updated
+
+* 🚧 Fix ingress
+
+* 🚧 Restore buildx
+
+* ⬆️ Update paperless version
+
+---------
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- 📝 updated "Scanner Recommendations" links (#274)
+
+Co-authored-by: Corvin <corvinszimion@googlemail.com> 
 - ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.8.2 (#272)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
