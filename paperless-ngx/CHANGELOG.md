@@ -1,4 +1,5 @@
 # Changelog since v2.3.0
+- 🚑 Fix file permissions (#276) 
 - ✨Update Paperless to v2.15.3 (#275)
 
 * ⬆️ Update paperless-ngx/paperless-ngx to v2.15.0 (#268)
