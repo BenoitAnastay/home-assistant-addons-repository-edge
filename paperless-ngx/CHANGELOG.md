@@ -1,4 +1,15 @@
 # Changelog since v2.3.0
+- 📝 Add Code of Conduct and issue template (#278)
+
+* Create CODE_OF_CONDUCT.md
+
+* Prettified Code!
+
+* Update issue templates (#277)
+
+* Update issue templates
+
+* Prettified Code! 
 - 🚑 Fix file permissions (#276) 
 - ✨Update Paperless to v2.15.3 (#275)
 
