@@ -1,4 +1,7 @@
 # Changelog since v2.3.0
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.8.3 (#279)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - 📝 Add Code of Conduct and issue template (#278)
 
 * Create CODE_OF_CONDUCT.md
