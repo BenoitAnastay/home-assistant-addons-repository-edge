@@ -1,4 +1,9 @@
 # Changelog since v3.0.4
+- 🚧 Mute redis (#322)
+
+* 🚧 Mute redis
+
+* mute redis 
 - Revert "🩹 Remove redis overcommit message (#319)" (#320)
 
 This reverts commit 8be1d6c852bb002add79c6fd68fda93d423c8fbd. 
