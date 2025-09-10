@@ -1,5 +1,5 @@
 name: Paperless-ngx
-version: '1285541'
+version: 8be1d6c
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 init: false

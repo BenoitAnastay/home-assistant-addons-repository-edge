@@ -1,4 +1,5 @@
 # Changelog since v3.0.4
+- 🩹 Remove redis overcommit message (#319) 
 - ⬆️ Upgrade to Debian 13 (#317)
 
 * 🔧 Fix formatting in dockerfile-updater.yml
