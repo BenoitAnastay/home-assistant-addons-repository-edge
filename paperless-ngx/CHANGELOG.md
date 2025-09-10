@@ -1,4 +1,7 @@
 # Changelog since v3.0.4
+- Revert "🩹 Remove redis overcommit message (#319)" (#320)
+
+This reverts commit 8be1d6c852bb002add79c6fd68fda93d423c8fbd. 
 - 🩹 Remove redis overcommit message (#319) 
 - ⬆️ Upgrade to Debian 13 (#317)
 
