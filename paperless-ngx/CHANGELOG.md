@@ -1,30 +1,26 @@
-# Changelog since v3.1.0
-- 🚑  Hotfix for HA 2025.11.0 (#337) 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.19.5 (#336)
+# Changelog since v3.1.1
+- ⬆️update redis and ghostscript (#350) 
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.1 (#348)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- 🐛 Use timezone from the addon settings instead of system value (#334) 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.19.4 (#331)
+- ⬆️ Update debian_13/curl to v8.14.1-2+deb13u2 (#341)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.19.2 (#330)
+- ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u3 (#342)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v8.1.4 (#328)
+- ⬆️ Update debian_13/libxml2 to v2.12.7+dfsg+really2.9.14-2.1+deb13u2 (#343)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update debian_13/ghostscript to v10.05.1~dfsg-1+deb13u1 (#327)
+- ⬆️ Update debian_13/poppler-utils to v25.03.0-5+deb13u2 (#344)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v8.1.3 (#326)
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9 (#346)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v8.1.2 (#325)
+- ⬆️ Update actions/checkout action to v6 (#347)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v8.1.1 (#324)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u2 (#323)
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.0 (#345)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
