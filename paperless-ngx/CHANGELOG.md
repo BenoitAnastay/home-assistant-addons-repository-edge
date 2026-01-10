@@ -1,4 +1,7 @@
 # Changelog since v3.1.1
+- ⬆️ Update debian_13/libpq-dev to v17.7-0+deb13u1 (#354)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️update redis and ghostscript (#350) 
 - ⬆️ Update paperless-ngx/paperless-ngx to v2.20.1 (#348)
 
