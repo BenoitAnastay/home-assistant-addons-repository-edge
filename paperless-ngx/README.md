@@ -74,7 +74,7 @@ If you are more interested in stable releases of our add-ons:
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-f1e1e8e-blue.svg
-[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/f1e1e8e
+[release-shield]: https://img.shields.io/badge/version-dc71c5b-blue.svg
+[release]: https://github.com/BenoitAnastay/paperless-home-assistant-addon/tree/dc71c5b
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=ca5234a0_paperless-ngx&repository_url=https%3A%2F%2Fgithub.com%2FBenoitAnastay%2Fhome-assistant-addons-repository
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg

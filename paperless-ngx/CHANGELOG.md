@@ -1,4 +1,5 @@
 # Changelog since v3.1.1
+- 🐛 Use host timezone by default (#359) 
 - ⬆️ Update GNUPG version to 2.4.7-21+deb13u1 (#358) 
 - ⬆️ Update paperless-ngx/paperless-ngx to v2.20.5 (#357)
 
