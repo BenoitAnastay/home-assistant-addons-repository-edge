@@ -1,5 +1,5 @@
 name: Tika-Gotenberg
-version: 8853d0e
+version: 0.1.0
 slug: tika-gotenberg
 url: https://github.com/BenoitAnastay/tika-gotenberg-home-assistant-addon
 init: false
