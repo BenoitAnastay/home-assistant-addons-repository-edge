@@ -1,15 +1,1 @@
-# Changelog since v0.1.0
-- original docker file compliancy 
-- drops armv7 
-- random fixs 
-- fix yarn cmd 
-- lint 
-- add --ignore-engines yarn flag 
-- Use git instead of curl 
-- Update tar cmd 
-- build from base image 
-- chmod +x 
-- dependencies 
-- bashio block update 
-- 🚨 lint 
-- A forgotent commit I didn't pushed, lets see what it does 
+Force CI update
