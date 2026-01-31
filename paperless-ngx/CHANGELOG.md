@@ -1,4 +1,7 @@
 # Changelog since v3.1.2
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.6 (#363)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.2.0 (#362)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
