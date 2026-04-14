@@ -1,4 +1,12 @@
 # Changelog since v3.1.2
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.14 (#377)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Add jbig2enc (#378)
+
+* ⬆️ Update libpq5 and libpq-dev to version 17.9-0+deb13u1 in Dockerfile
+
+* ⬆️ Add jbig2enc 
 - ⬆️ Update libpq5 and libpq-dev to version 17.9-0+deb13u1 in Dockerfile (#376) 
 - ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u7 (#369)
 
