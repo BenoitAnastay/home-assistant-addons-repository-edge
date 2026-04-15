@@ -1,4 +1,13 @@
 # Changelog since v3.1.2
+- Fix Release Drafter (#382)
+
+* Implement Release Drafter
+
+Added a job to draft releases using Release Drafter.
+
+* Remove dependency
+
+* lint 
 - 💚 Update Release-drafter (#381) 
 - Update badge (#380) 
 - Update badge (#379) 
