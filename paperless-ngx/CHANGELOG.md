@@ -1,4 +1,5 @@
 # Changelog since v3.1.2
+- 💚 Update Release-drafter (#381) 
 - Update badge (#380) 
 - Update badge (#379) 
 - ⬆️ Update paperless-ngx/paperless-ngx to v2.20.14 (#377)
