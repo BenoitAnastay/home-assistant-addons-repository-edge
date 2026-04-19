@@ -1,52 +1,17 @@
-# Changelog since v3.1.2
-- Fix Release Drafter (#382)
+# Changelog since v3.1.3
+- 🔧Add an option to remove port from path for reverse proxies (#385)
 
-* Implement Release Drafter
+This pull request adds support for improved reverse proxy handling in the Paperless add-on, specifically addressing scenarios where an external reverse proxy terminates HTTPS on a different host. The main change introduces a new configuration option to control whether the internal port is included in the `X-Forwarded-Host` header, preventing port leakage in generated URLs (such as OIDC redirect URIs). Documentation and translations have also been updated to explain and support this new feature.
 
-Added a job to draft releases using Release Drafter.
+**Reverse proxy support improvements:**
 
-* Remove dependency
+* Added a new `x_forwarded_host_no_port` configuration option to allow forwarding `X-Forwarded-Host` without the internal port, for use with external reverse proxies on a different host. [[1]](diffhunk://#diff-ffc7d11b6c80a48a5a6db02737b6e87361a3a94a4e545016ed4f6f637607d94eR60) [[2]](diffhunk://#diff-b4271badfa189f398468a4fb67e3b47eb6dc6f4a0daaa4c6ccff258369e6b8eaR64-R73)
+* Updated the NGINX template (`direct.gtpl`) to conditionally set the `X-Forwarded-Host` header based on the new option, either including or omitting the port.
+* Modified the NGINX initialization script to pass the new configuration option to the template engine.
 
-* lint 
-- 💚 Update Release-drafter (#381) 
-- Update badge (#380) 
-- Update badge (#379) 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.14 (#377)
+**Documentation and translation updates:**
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Add jbig2enc (#378)
+* Extended documentation in `DOCS.md` to explain the new option, including when and how to use it, and provided environment variable examples for correct Paperless configuration.
+* Added English translation strings for the new option, including a detailed description to guide users.
 
-* ⬆️ Update libpq5 and libpq-dev to version 17.9-0+deb13u1 in Dockerfile
-
-* ⬆️ Add jbig2enc 
-- ⬆️ Update libpq5 and libpq-dev to version 17.9-0+deb13u1 in Dockerfile (#376) 
-- ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u7 (#369)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update debian_13/mariadb-client to v1:11.8.6-0+deb13u1 (#370)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update debian_13/tzdata to v2026 (#371)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.13 (#372)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.3.0 (#375)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.10 (#366)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update debian_13/nginx to v1.26.3-3+deb13u2 (#365)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.6 (#363)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.2.0 (#362)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
-- ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u5 (#361)
-
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+Co-authored-by: Benoit Anastay <45088785+BenoitAnastay@users.noreply.github.com> 

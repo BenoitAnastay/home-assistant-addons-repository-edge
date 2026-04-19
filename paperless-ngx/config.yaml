@@ -1,5 +1,5 @@
 name: Paperless-ngx
-version: 534b56b
+version: 24eb1e6
 slug: paperless-ngx
 url: https://github.com/paperless-ngx/paperless-ngx
 init: false
@@ -55,5 +55,6 @@ schema:
   usermap_gid: int?
   ingress_auth: bool
   tika_gotenberg: bool
+  x_forwarded_host_no_port: bool?
   locales: str?
 image: ghcr.io/benoitanastay/paperless-ngx/{arch}
