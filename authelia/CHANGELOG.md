@@ -1,4 +1,13 @@
 # Changelog since v0.1.2
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20 (#24)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.6 (#17)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update authelia/authelia to v4.39.19 (#29)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update authelia/authelia to v4.39.6 (#28)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
