@@ -1,4 +1,7 @@
 # Changelog since v3.1.3
+- ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u8 (#387)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - 🔧Add an option to remove port from path for reverse proxies (#385)
 
 This pull request adds support for improved reverse proxy handling in the Paperless add-on, specifically addressing scenarios where an external reverse proxy terminates HTTPS on a different host. The main change introduces a new configuration option to control whether the internal port is included in the `X-Forwarded-Host` header, preventing port leakage in generated URLs (such as OIDC redirect URIs). Documentation and translations have also been updated to explain and support this new feature.
