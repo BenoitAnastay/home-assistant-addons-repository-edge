@@ -1,4 +1,7 @@
 # Changelog since v3.1.3
+- ⬆️ Update paperless-ngx/paperless-ngx to v2.20.15 (#386)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u8 (#387)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
