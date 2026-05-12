@@ -1,4 +1,18 @@
 # Changelog since v0.1.2
+- ⬆️ Refactor Dockerfile and update ca-certificates and su-exec (#33)
+
+* ⬆️ Updates ca-certificates and su-exec
+
+* 💚 Refactor Dockerfile to use TARGETOS and TARGETARCH for downloading Authelia
+
+Co-authored-by: Copilot <copilot@github.com>
+
+---------
+
+Co-authored-by: Copilot <copilot@github.com> 
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.1.1 (#31)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.1.0 (#30)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
