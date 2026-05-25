@@ -1,4 +1,14 @@
 # Changelog since v3.1.3
+- 🐛 Fix libpq version management and suppress Renovate no-result warnings (#393)
+
+Extracts LIBPQ_VERSION as a single ENV variable replacing two hardcoded
+17.10-0+deb13u1 literals in RUNTIME_PACKAGES and BUILD_PACKAGES, and
+adds a packageRules entry in renovate.json to disable the auto-detected
+debian_13/libpq5 and debian_13/libpq-dev lookups that produce no-result
+warnings (these are binary packages from the postgresql-17 source and
+are not tracked as standalone projects in repology).
+
+Co-authored-by: Claude <noreply@anthropic.com> 
 - 🐛 Resolve Tika-Gotenberg hostname dynamically from container slug (#392)
 
 * fix: resolve Tika-Gotenberg hostname dynamically from container slug
