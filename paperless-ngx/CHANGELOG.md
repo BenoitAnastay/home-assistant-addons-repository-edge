@@ -1,4 +1,59 @@
 # Changelog since v3.1.3
+- 🐛 Resolve Tika-Gotenberg hostname dynamically from container slug (#392)
+
+* fix: resolve Tika-Gotenberg hostname dynamically from container slug
+
+The Tika-Gotenberg sibling addon hostname was hardcoded as
+ca5234a0-tika-gotenberg. The repo slug (ca5234a0) is computed by the
+HA Supervisor from the repository URL and is not guaranteed to be
+stable across installations or forks.
+
+Instead, derive the repo slug at runtime by stripping the known addon
+suffix (-paperless-ngx) from the current container hostname, then
+construct the Tika-Gotenberg hostname using the same prefix. This
+ensures both addons resolve each other correctly regardless of which
+slug the Supervisor assigned.
+
+Closes #283
+Closes #349
+
+https://claude.ai/code/session_01DgjYEbo1GRrkQuipkTh1gx
+
+* fix: drop stale version pins that break apt-get on Debian 13 trixie
+
+Two categories of pinned packages were causing the Docker build to fail
+with exit code 100 (apt-get package not found):
+
+1. libxslt1.1=1.1.35-1.2+deb13u2
+   The package name contains a '.' which is not matched by Renovate's
+   inline regex ([a-z0-9][a-z0-9-]+), so it was never auto-updated.
+   Debian 13 trixie has since moved to libxslt 1.1.39+. The version
+   pin is dropped and replaced with a Renovate-tracked ENV var
+   (LIBXSLT_VERSION) so it can be re-pinned once Renovate confirms
+   the current version via repology depName=debian_13/libxslt1.
+
+2. unpaper / pngquant with binary-rebuild suffixes (+b2, +b3, +b1)
+   Debian trixie rebuilds packages frequently; the +bN suffix changes
+   with every rebuild and was not tracked by Renovate at all.
+   Version pins are removed; the arch-specific case arms are merged
+   into a single pattern since both now install without version.
+
+https://claude.ai/code/session_01DgjYEbo1GRrkQuipkTh1gx
+
+* ⬆️ Update libpq5 and libpq-dev to 17.10-0+deb13u1
+
+---------
+
+Co-authored-by: Claude <noreply@anthropic.com> 
+- ⬆️ Update debian_13/tzdata to v2026b-0+deb13u1 (#391)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update debian_13/curl to v8.14.1-2+deb13u3 (#389)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update debian_13/nginx to v1.26.3-3+deb13u5 (#390)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update paperless-ngx/paperless-ngx to v2.20.15 (#386)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
