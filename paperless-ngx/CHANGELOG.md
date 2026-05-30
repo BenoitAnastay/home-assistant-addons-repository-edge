@@ -1,4 +1,7 @@
 # Changelog since v3.1.3
+- ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u9 (#395)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - 🐛 Fix libpq version management and suppress Renovate no-result warnings (#393)
 
 Extracts LIBPQ_VERSION as a single ENV variable replacing two hardcoded
