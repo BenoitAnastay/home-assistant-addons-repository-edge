@@ -1,4 +1,15 @@
 # Changelog since v3.1.3
+- ⬆️ Update debian_13/nginx to v1.26.3-3+deb13u6 (#397)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update debian_13/poppler to v25.03.0-5+deb13u3 (#398)
+
+libpoppler147=25.03.0-5+deb13u2 was dropped from the Debian trixie repos,
+causing apt to fail resolving poppler-utils=25.03.0-5+deb13u2 on all PR builds.
+Bump to deb13u3 and add a Renovate tracking comment so future updates are
+handled automatically.
+
+Co-authored-by: Claude <noreply@anthropic.com> 
 - ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u9 (#395)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
