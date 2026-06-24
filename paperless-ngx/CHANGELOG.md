@@ -1,4 +1,7 @@
 # Changelog since v3.1.3
+- ⬆️ Update debian_13/imagemagick to v8:7.1.1.43+dfsg1-1+deb13u10 (#399)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update debian_13/nginx to v1.26.3-3+deb13u6 (#397)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
