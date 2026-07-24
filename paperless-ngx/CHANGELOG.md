@@ -1,4 +1,9 @@
 # Changelog since v3.1.4
+- 🐛 Allow API access for homeassistant when only ingress is enabled (#412)
+
+* ✨ Updates running scripts for paperless v3
+
+* 🐛 Allow API access for homeassistant when only ingress is enabled 
 - ✨ Updates running scripts for paperless v3 (#411) 
 - 💚 Fix CI for v3.0.0 (#410)
 
