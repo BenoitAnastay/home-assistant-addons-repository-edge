@@ -1,4 +1,5 @@
 # Changelog since v3.1.4
+- ✨ Updates running scripts for paperless v3 (#411) 
 - 💚 Fix CI for v3.0.0 (#410)
 
 * 💚 Fix CI for v3.0.0 
