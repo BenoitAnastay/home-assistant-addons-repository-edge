@@ -1,4 +1,7 @@
 # Changelog since v4.0.1
+- ⬆️ Update paperless-ngx/paperless-ngx to v3.1.1 (#427)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - 🎨 replace `bashio::addon.whetever` by `bashio::app.whetever` (#424)
 
 * change addon. to app.
