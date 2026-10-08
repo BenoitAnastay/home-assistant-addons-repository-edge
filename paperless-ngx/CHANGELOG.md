@@ -1,4 +1,7 @@
 # Changelog since v4.0.4
+- ⬆️ Update debian_13/xz-utils to v5.8.1-1+deb13u2 (#450)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update debian_13/nginx to v1.26.3-3+deb13u9 (#448)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
