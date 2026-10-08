@@ -1,4 +1,7 @@
 # Changelog since v4.0.4
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.5.0 (#446)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update debian_13/tzdata to v2026c-0+deb13u1 (#449)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
