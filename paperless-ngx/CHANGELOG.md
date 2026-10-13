@@ -1,4 +1,7 @@
 # Changelog since v4.0.4
+- ⬆️ Update debian_13/ghostscript to v10.05.1~dfsg-1+deb13u3 (#452)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v9.5.0 (#446)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
