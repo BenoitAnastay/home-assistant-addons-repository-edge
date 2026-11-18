@@ -1,4 +1,7 @@
 # Changelog since v4.0.6
+- ⬆️ Update paperless-ngx/paperless-ngx to v3.5.1 (#468)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - 🐛 Restore copy of upstream docker rootfs (#469)
 
 The ImageMagick removal in #466 also dropped the step that copies
