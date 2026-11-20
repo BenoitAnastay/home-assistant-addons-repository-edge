@@ -1,4 +1,7 @@
 # Changelog since v4.0.6
+- ⬆️ Update debian_13/nginx to v1.26.3-3+deb13u11 (#470)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update paperless-ngx/paperless-ngx to v3.5.1 (#468)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
